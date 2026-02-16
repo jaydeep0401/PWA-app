@@ -24,24 +24,24 @@
     <!-- Value from default config. -->
     <integer name="splashScreenFadeOutDuration">300</integer>
     <!-- Value from default config. -->
-    <string name="appName" translatable="false">PWA offline Notes</string>
+    <string name="appName" translatable="false">PWA app</string>
     <!-- Value from default config. -->
     <string name="fallbackType" translatable="false">customtabs</string>
     <!-- Value from default config. -->
-    <string name="fullScopeUrl" translatable="false">http://localhost:3000/</string>
+    <string name="fullScopeUrl" translatable="false">https://pwa-app-rust.vercel.app/</string>
     <!-- Value from default config. -->
     <string name="generatorApp" translatable="false">bubblewrap-cli</string>
     <!-- Value from default config. -->
-    <string name="hostName" translatable="false">shaky-women-unite.loca.lt</string>
+    <string name="hostName" translatable="false">pwa-app-rust.vercel.app</string>
     <!-- Value from default config. -->
-    <string name="launchUrl" translatable="false">https://shaky-women-unite.loca.lt/</string>
+    <string name="launchUrl" translatable="false">https://pwa-app-rust.vercel.app/</string>
     <!-- Value from default config. -->
-    <string name="launcherName" translatable="false">Notes</string>
+    <string name="launcherName" translatable="false">notes app</string>
     <!-- Value from default config. -->
     <string name="orientation" translatable="false">default</string>
     <!-- Value from default config. -->
-    <string name="providerAuthority" translatable="false">localhost_3000.twa.fileprovider</string>
+    <string name="providerAuthority" translatable="false">app.vercel.pwa_app_rust.twa.fileprovider</string>
     <!-- Value from default config. -->
-    <string name="webManifestUrl" translatable="false">http://localhost:3000/manifest.json</string>
+    <string name="webManifestUrl" translatable="false">https://pwa-app-rust.vercel.app/manifest.json</string>
 
 </resources>

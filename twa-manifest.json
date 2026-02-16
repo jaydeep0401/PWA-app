@@ -1,8 +1,8 @@
 {
-  "packageId": "localhost_3000.twa",
-  "host": "shaky-women-unite.loca.lt",
-  "name": "PWA offline Notes",
-  "launcherName": "Notes",
+  "packageId": "app.vercel.pwa_app_rust.twa",
+  "host": "pwa-app-rust.vercel.app",
+  "name": "PWA app",
+  "launcherName": "notes app",
   "display": "standalone",
   "themeColor": "#000000",
   "themeColorDark": "#000000",
@@ -13,7 +13,7 @@
   "backgroundColor": "#FFFFFF",
   "enableNotifications": true,
   "startUrl": "/",
-  "iconUrl": "http://localhost:3000/images/icon-512.png",
+  "iconUrl": "https://pwa-app-rust.vercel.app/images/icon-512.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "/home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/android.keystore",
@@ -23,7 +23,7 @@
   "appVersionCode": 1,
   "shortcuts": [],
   "generatorApp": "bubblewrap-cli",
-  "webManifestUrl": "http://localhost:3000/manifest.json",
+  "webManifestUrl": "https://pwa-app-rust.vercel.app/manifest.json",
   "fallbackType": "customtabs",
   "features": {
     "playBilling": {
@@ -36,7 +36,7 @@
   "enableSiteSettingsShortcut": true,
   "isChromeOSOnly": false,
   "isMetaQuest": false,
-  "fullScopeUrl": "http://localhost:3000/",
+  "fullScopeUrl": "https://pwa-app-rust.vercel.app/",
   "minSdkVersion": 21,
   "orientation": "default",
   "fingerprints": [],

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "localhost_3000.twa.app-mergeReleaseResources-27:/values-sr/values-sr.xml",
+            "outputFile": "app.vercel.pwa_app_rust.twa.app-mergeReleaseResources-27:/values-sr/values-sr.xml",
             "map": [
                 {
                     "source": "/home/jaydeep/.gradle/caches/8.11.1/transforms/be57bd43967b699c12a0f6b8bd2f21c6/transformed/browser-1.9.0-alpha04/res/values-sr/values-sr.xml",

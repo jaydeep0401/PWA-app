@@ -47,7 +47,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/jayde
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/09558f1b9b56a339611f1f3ff5685123/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/jaydeep/.gradle/caches/8.11.1/transforms/7880efad619dc72d569f5e6e2c17444b/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
 	package
-		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:23:5-33
+		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:23:5-42
 		INJECTED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml
@@ -152,7 +152,7 @@ category#android.intent.category.DEFAULT
 ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:74:21-80
 	android:name
 		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:74:31-77
-activity#localhost_3000.twa.LauncherActivity
+activity#app.vercel.pwa_app_rust.twa.LauncherActivity
 ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:79:9-160:20
 	android:label
 		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:81:13-49
@@ -300,7 +300,7 @@ ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/s
 		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:174:17-50
 	android:name
 		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:173:17-67
-service#localhost_3000.twa.DelegationService
+service#app.vercel.pwa_app_rust.twa.DelegationService
 ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:177:9-192:19
 	android:enabled
 		ADDED from /home/jaydeep/Documents/learning/frontend/next.js/pwa-notes-app/app/src/main/AndroidManifest.xml:179:13-55
@@ -540,7 +540,7 @@ ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/trans
 		ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-permission#localhost_3000.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#app.vercel.pwa_app_rust.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
@@ -550,7 +550,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-uses-permission#localhost_3000.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#app.vercel.pwa_app_rust.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.13.0] /home/jaydeep/.gradle/caches/8.11.1/transforms/a5429f7b20c607b890f08b5283ad4ec0/transformed/core-1.13.0/AndroidManifest.xml:26:22-94

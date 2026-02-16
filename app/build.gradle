@@ -21,11 +21,11 @@ plugins {
 }
 
 def twaManifest = [
-    applicationId: 'localhost_3000.twa',
-    hostName: 'shaky-women-unite.loca.lt', // The domain being opened in the TWA.
+    applicationId: 'app.vercel.pwa_app_rust.twa',
+    hostName: 'pwa-app-rust.vercel.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'PWA offline Notes', // The application name.
-    launcherName: 'Notes', // The name shown on the Android Launcher.
+    name: 'PWA app', // The application name.
+    launcherName: 'notes app', // The name shown on the Android Launcher.
     themeColor: '#000000', // The color used for the status bar.
     themeColorDark: '#000000', // The color used for the dark status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
@@ -52,9 +52,9 @@ def twaManifest = [
 
 android {
     compileSdkVersion 36
-    namespace "localhost_3000.twa"
+    namespace "app.vercel.pwa_app_rust.twa"
     defaultConfig {
-        applicationId "localhost_3000.twa"
+        applicationId "app.vercel.pwa_app_rust.twa"
         minSdkVersion 21
         targetSdkVersion 35
         versionCode 1
@@ -76,12 +76,12 @@ android {
             // The URL the Web Manifest for the Progressive Web App that the TWA points to. This
             // is used by Chrome OS and Meta Quest to open the Web version of the PWA instead of
             // the TWA, as it will probably give a better user experience for non-mobile devices.
-            resValue "string", "webManifestUrl", 'http://localhost:3000/manifest.json'
+            resValue "string", "webManifestUrl", 'https://pwa-app-rust.vercel.app/manifest.json'
         
 
         
             // This is used by Meta Quest.
-            resValue "string", "fullScopeUrl", 'http://localhost:3000/'
+            resValue "string", "fullScopeUrl", 'https://pwa-app-rust.vercel.app/'
         
 
         

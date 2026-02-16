@@ -22,7 +22,7 @@
      the abbreviated format.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="localhost_3000.twa"
+    package="app.vercel.pwa_app_rust.twa"
     android:versionCode="1"
     android:versionName="1" >
 
@@ -51,16 +51,16 @@
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <permission
-        android:name="localhost_3000.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="app.vercel.pwa_app_rust.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="localhost_3000.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="app.vercel.pwa_app_rust.twa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="localhost_3000.twa.Application"
+        android:name="app.vercel.pwa_app_rust.twa.Application"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="true"
@@ -95,7 +95,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="localhost_3000.twa.LauncherActivity"
+            android:name="app.vercel.pwa_app_rust.twa.LauncherActivity"
             android:alwaysRetainTaskState="true"
             android:exported="true"
             android:label="@string/launcherName" >
@@ -174,7 +174,7 @@
         </provider>
 
         <service
-            android:name="localhost_3000.twa.DelegationService"
+            android:name="app.vercel.pwa_app_rust.twa.DelegationService"
             android:enabled="@bool/enableNotification"
             android:exported="@bool/enableNotification" >
             <meta-data
@@ -237,7 +237,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="localhost_3000.twa.androidx-startup"
+            android:authorities="app.vercel.pwa_app_rust.twa.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

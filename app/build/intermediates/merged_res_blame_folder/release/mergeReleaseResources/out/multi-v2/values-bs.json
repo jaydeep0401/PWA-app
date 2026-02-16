@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "localhost_3000.twa.app-mergeReleaseResources-27:/values-bs/values-bs.xml",
+            "outputFile": "app.vercel.pwa_app_rust.twa.app-mergeReleaseResources-27:/values-bs/values-bs.xml",
             "map": [
                 {
                     "source": "/home/jaydeep/.gradle/caches/8.11.1/transforms/57bacb9ef58048c0e6f8321d8067096b/transformed/play-services-base-18.5.0/res/values-bs/values.xml",

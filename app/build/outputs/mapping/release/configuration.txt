@@ -3,6 +3,9 @@
 -keep class androidx.core.content.FileProvider { <init>(); }
 -keep class androidx.profileinstaller.ProfileInstallReceiver { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
+-keep class app.vercel.pwa_app_rust.twa.Application { <init>(); }
+-keep class app.vercel.pwa_app_rust.twa.DelegationService { <init>(); }
+-keep class app.vercel.pwa_app_rust.twa.LauncherActivity { <init>(); }
 -keep class com.android.billingclient.api.ProxyBillingActivity { <init>(); }
 -keep class com.android.billingclient.api.ProxyBillingActivityV2 { <init>(); }
 -keep class com.google.android.datatransport.runtime.backends.TransportBackendDiscovery { <init>(); }
@@ -15,9 +18,6 @@
 -keep class com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity { <init>(); }
 -keep class com.google.androidbrowserhelper.trusted.WebViewFallbackActivity { <init>(); }
--keep class localhost_3000.twa.Application { <init>(); }
--keep class localhost_3000.twa.DelegationService { <init>(); }
--keep class localhost_3000.twa.LauncherActivity { <init>(); }
 -keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
 
 -keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
