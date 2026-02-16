@@ -1,7 +1,7 @@
 {
-  "name": "Offline Notes",
+  "name": "PWA App",
   "short_name": "Notes",
-  "start_url": "/?source=pwa",
+  "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
