@@ -4,7 +4,7 @@ import "./globals.css";
 import ServiceWorkerRegister from "./_components/ServiseWorkerRegister";
 import { Toaster } from "sonner";
 import DesktopScreen from "./_components/DesktopScreen";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +36,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ServiceWorkerRegister />
-<Analytics/>
         <Toaster position="top-right" />
 
         <div className="hidden lg:block">
@@ -44,6 +43,7 @@ export default function RootLayout({
         </div>
 
         <div className="block lg:hidden">{children}I</div>
+        <Analytics />
       </body>
     </html>
   );
