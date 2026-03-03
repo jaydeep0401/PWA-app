@@ -106,7 +106,7 @@ const ListingNotes = () => {
           animate={{ opacity: 1 }}
           className="flex flex-col items-center justify-center mt-20 text-gray-400"
         >
-          <p className="text-xl">No notes found</p>
+          <p className="text-xl">No notes found!!</p>
           <span className="text-sm mt-2">
             Start creating your first note ✨
           </span>
