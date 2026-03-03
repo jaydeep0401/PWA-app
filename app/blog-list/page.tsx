@@ -108,7 +108,7 @@ const ListingNotes = () => {
         >
           <p className="text-xl">No notes found!!</p>
           <span className="text-sm mt-2">
-            Start creating your first note ✨
+            Start creating your first note by clicking the "Create Blog" button above.
           </span>
         </motion.div>
       ) : (
